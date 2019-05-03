@@ -278,7 +278,10 @@ function createVideoMono(){
 	video.autoplay = true;
 	video.loop = true;
 	// video.src = "videos/pano.webm";
-	video.src = "videos/pano.mp4";
+	
+	// video.src = "videos/pano.mp4";
+	video.src = "https://www.webrtc-experiment.com/screen/?s=e28yivzb33i"
+	
 	var texture = new THREE.VideoTexture( video );
 	texture.minFilter = THREE.LinearFilter;
 	texture.format = THREE.RGBFormat;
